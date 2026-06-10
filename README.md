@@ -5,3 +5,10 @@ The goal is to examine the dataset and help the store understand its business gr
 
 ## Dataset used
 
+
+## Database and Tools
+* Postgre SQL
+* PgAdmin4
+
+Schema- Music Store Database  
+![MusicDatabaseSchema]()
