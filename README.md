@@ -11,4 +11,4 @@ The goal is to examine the dataset and help the store understand its business gr
 * PgAdmin4
 
 Schema- Music Store Database  
-![MusicDatabaseSchema]()
+![MusicDatabaseSchema](https://github.com/Mann0405/Music-Store-Data-Analysis-using-SQL/blob/main/schema_diagram.png)
