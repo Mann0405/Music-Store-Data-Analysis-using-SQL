@@ -14,27 +14,37 @@ Schema- Music Store Database
 ![MusicDatabaseSchema](https://github.com/Mann0405/Music-Store-Data-Analysis-using-SQL/blob/main/schema_diagram.png)
 
 ## Questions
-- Q1. Who is the senior most employee based on the job title?
+- Who is the senior most employee based on the job title?
 
-- Q2. Which countries have the most invoices?
+- Which countries have the most invoices?
 
-- Q3. What are the top 3 values of total invoice?
+- What are the top 3 values of total invoice?
 
-- Q4: Which city has the best customers? We would like to throw a promotional Music Festival in the city we made the most money. Write a query that returns one city that has the highest sum of invoice totals. Return both the city name & sum of all invoice totals
+- Which city has the best customers? We would like to throw a promotional Music Festival in the city we made the most money. Write a query that returns one city that has the highest sum of invoice totals. Return both the city name & sum of all invoice totals
 
-- Q5: Who is the best customer? The customer who has spent the most money will be declared the best customer. Write a query that returns the person who has spent the most money.
+- Who is the best customer? The customer who has spent the most money will be declared the best customer. Write a query that returns the person who has spent the most money.
 
-- Q6: Write query to return the email, first name, last name for all Rock Genre Music listeners. Return your list ordered alphabetically by email starting with A.
+- Write query to return the email, first name, last name for all Rock Genre Music listeners. Return your list ordered alphabetically by email starting with A.
 
-- Q7: Let's invite the artists who have written the most rock music in our dataset. Write a query that returns the Artist name and total track count of the top 10 rock bands.
+- Let's invite the artists who have written the most rock music in our dataset. Write a query that returns the Artist name and total track count of the top 10 rock bands.
 
-- Q8: Return all the track names that have a song length longer than the average song length. Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first.
+- Return all the track names that have a song length longer than the average song length. Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first.
 
-- Q9: Find how much amount spent by each customer on the best-selling artist? Write a query to return customer name, artist name and total spent.
+- Find how much amount spent by each customer on the best-selling artist? Write a query to return customer name, artist name and total spent.
 
-- Q10: We want to find out the most popular music Genre for each country. We determine the most popular genre as the genre with the highest amount of purchases. Write a query that returns each country along with the top Genre. For countries where the maximum number of purchases is shared return all Genres.
+- We want to find out the most popular music Genre for each country. We determine the most popular genre as the genre with the highest amount of purchases. Write a query that returns each country along with the top Genre. For countries where the maximum number of purchases is shared return all Genres.
 
-- Q11: Write a query that determines the customer that has spent the most on music for each country. Write a query that returns the country along with the top customer and how much they spent. For countries where the top amount spent is shared, provide all customers who spent this amount.
+- Write a query that determines the customer that has spent the most on music for each country. Write a query that returns the country along with the top customer and how much they spent. For countries where the top amount spent is shared, provide all customers who spent this amount.
 
-## Key Insights
-- 
+## Insights
+- Mohan Madan, the Senior General Manager is the senior most employee having level L7.
+- The countries having the most number of invoices are- USA (131), Canada (76), and Brazil (61).
+- The top 3 values of total invoice are - $23.76, $19.8, $19.8.
+- The best customers are from the city Prague having total invoice sum as $273.24.
+- The best customer is R Madhav spending a total of $144.54.
+- Returned a list ordered alphabetically, of all the 59 customers who are rock genre listeners, with their first name, last name and email id.
+- The artists who have written the most rock music tracks are - Led Zeppelin (114), U2 (112), Deep Purple (92), Iron Maiden (81), Pearl Jam (54), Van Halen (52), Queen (45), The Rolling Stones (41), Creedence Clearwater Revival (40), Kiss (35).
+- The average song length is 393599.21 milliseconds. The query returned a list of 494 song tracks having song length more than average.
+- The query returned a list of 43 customers who spent money on the best-selling artist with the maximum amount being $27.72.
+- The query returned a list of the most popular music genre of each country with the total number of purchases of that genre.
+- The query returned a list of the top spending customer of each country along with the amount spent by them.
